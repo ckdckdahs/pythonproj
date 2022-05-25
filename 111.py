@@ -1,5 +1,5 @@
 import cx_Oracle
-
+#ddddd
 conn = cx_Oracle.connect('scott','tiger','localhost:1521/XE')
 cursor = conn.cursor()
 # cursor.execute("drop table test")
